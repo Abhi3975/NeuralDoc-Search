@@ -8,3 +8,4 @@
 - [2025-11-27 12:58] feat(generator): support dynamic prompt injection - Iteration 5
 - [2025-11-28 09:38] chore: update dependencies - Iteration 6
 - [2025-11-28 19:31] refactor(search): optimize BM25 tokenization overlay - Iteration 7
+- [2025-11-30 02:02] test: add coverage for doc_parser module - Iteration 8
