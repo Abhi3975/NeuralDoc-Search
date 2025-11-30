@@ -10,3 +10,4 @@
 - [2025-11-28 19:31] refactor(search): optimize BM25 tokenization overlay - Iteration 7
 - [2025-11-30 02:02] test: add coverage for doc_parser module - Iteration 8
 - [2025-11-30 06:48] chore(config): adjust streamlit layout constraints - Iteration 9
+- [2025-11-30 08:59] docs: clarify Serverless architecture in README - Iteration 10
