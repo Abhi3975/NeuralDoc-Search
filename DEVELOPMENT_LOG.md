@@ -13,3 +13,4 @@
 - [2025-11-30 08:59] docs: clarify Serverless architecture in README - Iteration 10
 - [2025-11-30 19:49] test: add coverage for doc_parser module - Iteration 11
 - [2025-12-02 14:19] fix(llm): resolve API streaming race condition - Iteration 12
+- [2025-12-02 14:45] style: migrate primary accents to indigo - Iteration 13
