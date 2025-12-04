@@ -16,3 +16,4 @@
 - [2025-12-02 14:45] style: migrate primary accents to indigo - Iteration 13
 - [2025-12-02 16:24] fix(llm): resolve API streaming race condition - Iteration 14
 - [2025-12-04 04:01] fix(ui): sidebar state preservation bug - Iteration 15
+- [2025-12-05 04:47] feat(generator): support dynamic prompt injection - Iteration 16
