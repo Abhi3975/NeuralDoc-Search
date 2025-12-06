@@ -20,3 +20,4 @@
 - [2025-12-06 12:00] refactor(search_engine): isolate okapi variables - Iteration 17
 - [2025-12-06 16:54] refactor(eval): streamline ragas matrix calculations - Iteration 18
 - [2025-12-06 17:21] refactor(search): optimize BM25 tokenization overlay - Iteration 19
+- [2025-12-06 17:26] style: conform to flake8 guidelines - Iteration 20
