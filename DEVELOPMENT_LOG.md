@@ -18,3 +18,4 @@
 - [2025-12-04 04:01] fix(ui): sidebar state preservation bug - Iteration 15
 - [2025-12-05 04:47] feat(generator): support dynamic prompt injection - Iteration 16
 - [2025-12-06 12:00] refactor(search_engine): isolate okapi variables - Iteration 17
+- [2025-12-06 16:54] refactor(eval): streamline ragas matrix calculations - Iteration 18
