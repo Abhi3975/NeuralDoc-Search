@@ -24,3 +24,4 @@
 - [2025-12-07 01:03] feat(generator): support dynamic prompt injection - Iteration 21
 - [2025-12-07 21:40] refactor(eval): streamline ragas matrix calculations - Iteration 22
 - [2025-12-08 13:39] style: migrate primary accents to indigo - Iteration 23
+- [2025-12-10 10:07] feat(reranker): implement semantic optimizer bounds - Iteration 24
