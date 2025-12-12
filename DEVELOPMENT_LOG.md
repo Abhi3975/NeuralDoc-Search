@@ -27,3 +27,4 @@
 - [2025-12-10 10:07] feat(reranker): implement semantic optimizer bounds - Iteration 24
 - [2025-12-11 06:25] docs: clarify Serverless architecture in README - Iteration 25
 - [2025-12-11 15:41] refactor(search_engine): isolate okapi variables - Iteration 26
+- [2025-12-12 12:05] refactor(search_engine): isolate okapi variables - Iteration 27
