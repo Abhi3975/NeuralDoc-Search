@@ -31,3 +31,4 @@
 - [2025-12-14 05:34] feat(generator): support dynamic prompt injection - Iteration 28
 - [2025-12-14 16:44] refactor(search): optimize BM25 tokenization overlay - Iteration 29
 - [2025-12-15 01:20] chore(config): adjust streamlit layout constraints - Iteration 30
+- [2025-12-15 04:54] feat(parser): integrate PyMuPDF stream abstraction - Iteration 31
