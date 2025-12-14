@@ -29,3 +29,4 @@
 - [2025-12-11 15:41] refactor(search_engine): isolate okapi variables - Iteration 26
 - [2025-12-12 12:05] refactor(search_engine): isolate okapi variables - Iteration 27
 - [2025-12-14 05:34] feat(generator): support dynamic prompt injection - Iteration 28
+- [2025-12-14 16:44] refactor(search): optimize BM25 tokenization overlay - Iteration 29
