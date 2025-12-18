@@ -33,3 +33,4 @@
 - [2025-12-15 01:20] chore(config): adjust streamlit layout constraints - Iteration 30
 - [2025-12-15 04:54] feat(parser): integrate PyMuPDF stream abstraction - Iteration 31
 - [2025-12-16 22:09] style: conform to flake8 guidelines - Iteration 32
+- [2025-12-18 11:37] refactor(search): optimize BM25 tokenization overlay - Iteration 33
