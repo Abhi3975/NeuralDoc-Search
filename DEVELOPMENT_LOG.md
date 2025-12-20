@@ -37,3 +37,4 @@
 - [2025-12-19 10:44] chore: update dependencies - Iteration 34
 - [2025-12-20 03:57] fix(ui): patch particle canvas memory leak - Iteration 35
 - [2025-12-20 11:38] fix(ui): sidebar state preservation bug - Iteration 36
+- [2025-12-20 17:22] fix(parser): handle empty pdf edge cases - Iteration 37
