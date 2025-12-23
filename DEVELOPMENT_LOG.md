@@ -40,3 +40,4 @@
 - [2025-12-20 17:22] fix(parser): handle empty pdf edge cases - Iteration 37
 - [2025-12-21 04:00] docs: add new metrics to validation matrix - Iteration 38
 - [2025-12-23 09:19] refactor(eval): streamline ragas matrix calculations - Iteration 39
+- [2025-12-23 21:32] feat(parser): integrate PyMuPDF stream abstraction - Iteration 40
