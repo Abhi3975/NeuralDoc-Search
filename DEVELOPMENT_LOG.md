@@ -39,3 +39,4 @@
 - [2025-12-20 11:38] fix(ui): sidebar state preservation bug - Iteration 36
 - [2025-12-20 17:22] fix(parser): handle empty pdf edge cases - Iteration 37
 - [2025-12-21 04:00] docs: add new metrics to validation matrix - Iteration 38
+- [2025-12-23 09:19] refactor(eval): streamline ragas matrix calculations - Iteration 39
