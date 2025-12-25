@@ -45,3 +45,4 @@
 - [2025-12-24 03:10] style: conform to flake8 guidelines - Iteration 42
 - [2025-12-25 06:15] fix(ui): patch particle canvas memory leak - Iteration 43
 - [2025-12-25 08:13] refactor(eval): streamline ragas matrix calculations - Iteration 44
+- [2025-12-25 15:01] feat(ui): add evaluation trace expander - Iteration 45
