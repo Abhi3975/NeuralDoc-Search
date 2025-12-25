@@ -43,3 +43,4 @@
 - [2025-12-23 21:32] feat(parser): integrate PyMuPDF stream abstraction - Iteration 40
 - [2025-12-23 21:59] docs: clarify Serverless architecture in README - Iteration 41
 - [2025-12-24 03:10] style: conform to flake8 guidelines - Iteration 42
+- [2025-12-25 06:15] fix(ui): patch particle canvas memory leak - Iteration 43
