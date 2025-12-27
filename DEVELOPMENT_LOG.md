@@ -46,3 +46,4 @@
 - [2025-12-25 06:15] fix(ui): patch particle canvas memory leak - Iteration 43
 - [2025-12-25 08:13] refactor(eval): streamline ragas matrix calculations - Iteration 44
 - [2025-12-25 15:01] feat(ui): add evaluation trace expander - Iteration 45
+- [2025-12-28 05:15] test: add coverage for doc_parser module - Iteration 46
