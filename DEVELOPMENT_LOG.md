@@ -50,3 +50,4 @@
 - [2025-12-28 10:09] refactor(search_engine): isolate okapi variables - Iteration 47
 - [2025-12-28 15:58] chore: update dependencies - Iteration 48
 - [2025-12-28 16:13] feat(generator): support dynamic prompt injection - Iteration 49
+- [2025-12-28 21:56] feat(parser): integrate PyMuPDF stream abstraction - Iteration 50
