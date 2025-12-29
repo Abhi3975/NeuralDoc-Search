@@ -51,3 +51,4 @@
 - [2025-12-28 15:58] chore: update dependencies - Iteration 48
 - [2025-12-28 16:13] feat(generator): support dynamic prompt injection - Iteration 49
 - [2025-12-28 21:56] feat(parser): integrate PyMuPDF stream abstraction - Iteration 50
+- [2025-12-29 10:39] test: add coverage for doc_parser module - Iteration 51
