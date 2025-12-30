@@ -53,3 +53,4 @@
 - [2025-12-28 21:56] feat(parser): integrate PyMuPDF stream abstraction - Iteration 50
 - [2025-12-29 10:39] test: add coverage for doc_parser module - Iteration 51
 - [2025-12-29 15:10] style: migrate primary accents to indigo - Iteration 52
+- [2025-12-30 09:18] docs: add new metrics to validation matrix - Iteration 53
