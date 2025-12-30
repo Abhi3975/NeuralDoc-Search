@@ -55,3 +55,4 @@
 - [2025-12-29 15:10] style: migrate primary accents to indigo - Iteration 52
 - [2025-12-30 09:18] docs: add new metrics to validation matrix - Iteration 53
 - [2025-12-30 19:08] docs: add new metrics to validation matrix - Iteration 54
+- [2025-12-30 22:08] chore(config): adjust streamlit layout constraints - Iteration 55
