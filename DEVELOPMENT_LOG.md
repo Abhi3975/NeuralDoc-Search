@@ -62,3 +62,4 @@
 - [2026-01-01 23:29] style: conform to flake8 guidelines - Iteration 59
 - [2026-01-02 11:20] feat(ui): add evaluation trace expander - Iteration 60
 - [2026-01-02 18:51] test: add coverage for doc_parser module - Iteration 61
+- [2026-01-02 20:53] feat(parser): integrate PyMuPDF stream abstraction - Iteration 62
