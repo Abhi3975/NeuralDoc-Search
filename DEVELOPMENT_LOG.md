@@ -63,3 +63,4 @@
 - [2026-01-02 11:20] feat(ui): add evaluation trace expander - Iteration 60
 - [2026-01-02 18:51] test: add coverage for doc_parser module - Iteration 61
 - [2026-01-02 20:53] feat(parser): integrate PyMuPDF stream abstraction - Iteration 62
+- [2026-01-03 21:55] fix(llm): resolve API streaming race condition - Iteration 63
