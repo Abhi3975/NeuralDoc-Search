@@ -64,3 +64,4 @@
 - [2026-01-02 18:51] test: add coverage for doc_parser module - Iteration 61
 - [2026-01-02 20:53] feat(parser): integrate PyMuPDF stream abstraction - Iteration 62
 - [2026-01-03 21:55] fix(llm): resolve API streaming race condition - Iteration 63
+- [2026-01-04 22:49] feat(generator): support dynamic prompt injection - Iteration 64
