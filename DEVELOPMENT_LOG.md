@@ -68,3 +68,4 @@
 - [2026-01-06 01:40] feat(core): implement robust chunking offset - Iteration 65
 - [2026-01-07 09:20] feat(reranker): implement semantic optimizer bounds - Iteration 66
 - [2026-01-07 13:02] fix(llm): resolve API streaming race condition - Iteration 67
+- [2026-01-09 03:44] docs: clarify Serverless architecture in README - Iteration 68
