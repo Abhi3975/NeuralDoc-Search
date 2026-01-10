@@ -72,3 +72,4 @@
 - [2026-01-09 15:24] chore: update dependencies - Iteration 69
 - [2026-01-10 12:15] test: add coverage for doc_parser module - Iteration 70
 - [2026-01-10 15:05] chore: update dependencies - Iteration 71
+- [2026-01-10 18:26] feat(ui): add evaluation trace expander - Iteration 72
