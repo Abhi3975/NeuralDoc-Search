@@ -76,3 +76,4 @@
 - [2026-01-10 18:53] style: migrate primary accents to indigo - Iteration 73
 - [2026-01-11 08:13] fix(llm): resolve API streaming race condition - Iteration 74
 - [2026-01-11 17:10] docs: add new metrics to validation matrix - Iteration 75
+- [2026-01-11 18:29] chore(config): adjust streamlit layout constraints - Iteration 76
