@@ -81,3 +81,4 @@
 - [2026-01-12 18:01] feat(core): implement robust chunking offset - Iteration 78
 - [2026-01-13 04:18] chore(config): adjust streamlit layout constraints - Iteration 79
 - [2026-01-13 07:07] feat(ui): add evaluation trace expander - Iteration 80
+- [2026-01-14 10:21] style: conform to flake8 guidelines - Iteration 81
