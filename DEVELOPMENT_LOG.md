@@ -82,3 +82,4 @@
 - [2026-01-13 04:18] chore(config): adjust streamlit layout constraints - Iteration 79
 - [2026-01-13 07:07] feat(ui): add evaluation trace expander - Iteration 80
 - [2026-01-14 10:21] style: conform to flake8 guidelines - Iteration 81
+- [2026-01-14 16:58] feat(ui): add evaluation trace expander - Iteration 82
