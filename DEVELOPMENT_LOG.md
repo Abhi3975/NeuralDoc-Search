@@ -85,3 +85,4 @@
 - [2026-01-14 16:58] feat(ui): add evaluation trace expander - Iteration 82
 - [2026-01-15 19:49] test: add coverage for doc_parser module - Iteration 83
 - [2026-01-16 19:00] style: migrate primary accents to indigo - Iteration 84
+- [2026-01-17 08:57] docs: add new metrics to validation matrix - Iteration 85
