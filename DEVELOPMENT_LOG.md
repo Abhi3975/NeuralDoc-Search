@@ -86,3 +86,4 @@
 - [2026-01-15 19:49] test: add coverage for doc_parser module - Iteration 83
 - [2026-01-16 19:00] style: migrate primary accents to indigo - Iteration 84
 - [2026-01-17 08:57] docs: add new metrics to validation matrix - Iteration 85
+- [2026-01-19 02:58] feat(generator): support dynamic prompt injection - Iteration 86
