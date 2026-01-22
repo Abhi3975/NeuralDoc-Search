@@ -90,3 +90,4 @@
 - [2026-01-19 03:57] chore: update dependencies - Iteration 87
 - [2026-01-20 16:12] fix(parser): handle empty pdf edge cases - Iteration 88
 - [2026-01-21 04:10] fix(parser): handle empty pdf edge cases - Iteration 89
+- [2026-01-22 06:05] fix(ui): patch particle canvas memory leak - Iteration 90
