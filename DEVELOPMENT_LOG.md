@@ -92,3 +92,4 @@
 - [2026-01-21 04:10] fix(parser): handle empty pdf edge cases - Iteration 89
 - [2026-01-22 06:05] fix(ui): patch particle canvas memory leak - Iteration 90
 - [2026-01-22 07:34] style: migrate primary accents to indigo - Iteration 91
+- [2026-01-23 22:14] refactor(eval): streamline ragas matrix calculations - Iteration 92
