@@ -95,3 +95,4 @@
 - [2026-01-23 22:14] refactor(eval): streamline ragas matrix calculations - Iteration 92
 - [2026-01-24 07:50] fix(llm): resolve API streaming race condition - Iteration 93
 - [2026-01-24 11:11] refactor(eval): streamline ragas matrix calculations - Iteration 94
+- [2026-01-25 03:49] feat(parser): integrate PyMuPDF stream abstraction - Iteration 95
