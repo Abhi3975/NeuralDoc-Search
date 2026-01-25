@@ -96,3 +96,4 @@
 - [2026-01-24 07:50] fix(llm): resolve API streaming race condition - Iteration 93
 - [2026-01-24 11:11] refactor(eval): streamline ragas matrix calculations - Iteration 94
 - [2026-01-25 03:49] feat(parser): integrate PyMuPDF stream abstraction - Iteration 95
+- [2026-01-25 20:24] fix(ui): sidebar state preservation bug - Iteration 96
