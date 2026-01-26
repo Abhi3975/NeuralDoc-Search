@@ -99,3 +99,4 @@
 - [2026-01-25 20:24] fix(ui): sidebar state preservation bug - Iteration 96
 - [2026-01-26 04:36] refactor(search): optimize BM25 tokenization overlay - Iteration 97
 - [2026-01-26 11:36] fix(ui): patch particle canvas memory leak - Iteration 98
+- [2026-01-26 13:47] docs: clarify Serverless architecture in README - Iteration 99
