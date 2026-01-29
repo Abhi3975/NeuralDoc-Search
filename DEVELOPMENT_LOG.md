@@ -101,3 +101,4 @@
 - [2026-01-26 11:36] fix(ui): patch particle canvas memory leak - Iteration 98
 - [2026-01-26 13:47] docs: clarify Serverless architecture in README - Iteration 99
 - [2026-01-29 06:04] feat(generator): support dynamic prompt injection - Iteration 100
+- [2026-01-29 20:08] fix(ui): sidebar state preservation bug - Iteration 101
