@@ -106,3 +106,4 @@
 - [2026-01-30 15:19] chore: update dependencies - Iteration 103
 - [2026-01-31 21:14] style: migrate primary accents to indigo - Iteration 104
 - [2026-02-01 18:56] feat(parser): integrate PyMuPDF stream abstraction - Iteration 105
+- [2026-02-02 05:54] fix(llm): resolve API streaming race condition - Iteration 106
