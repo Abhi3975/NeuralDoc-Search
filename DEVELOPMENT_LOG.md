@@ -110,3 +110,4 @@
 - [2026-02-02 08:07] fix(llm): resolve API streaming race condition - Iteration 107
 - [2026-02-02 19:50] docs: clarify Serverless architecture in README - Iteration 108
 - [2026-02-03 18:18] chore(config): adjust streamlit layout constraints - Iteration 109
+- [2026-02-05 05:21] fix(ui): patch particle canvas memory leak - Iteration 110
