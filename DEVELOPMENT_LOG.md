@@ -117,3 +117,4 @@
 - [2026-02-06 16:21] refactor(search): optimize BM25 tokenization overlay - Iteration 114
 - [2026-02-07 01:06] fix(parser): handle empty pdf edge cases - Iteration 115
 - [2026-02-07 05:38] feat(ui): add evaluation trace expander - Iteration 116
+- [2026-02-09 10:30] fix(llm): resolve API streaming race condition - Iteration 117
