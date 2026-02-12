@@ -120,3 +120,4 @@
 - [2026-02-09 10:30] fix(llm): resolve API streaming race condition - Iteration 117
 - [2026-02-11 21:33] fix(ui): patch particle canvas memory leak - Iteration 118
 - [2026-02-11 23:56] style: conform to flake8 guidelines - Iteration 119
+- [2026-02-12 22:08] fix(parser): handle empty pdf edge cases - Iteration 120
