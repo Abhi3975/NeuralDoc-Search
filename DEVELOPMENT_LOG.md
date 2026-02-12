@@ -121,3 +121,4 @@
 - [2026-02-11 21:33] fix(ui): patch particle canvas memory leak - Iteration 118
 - [2026-02-11 23:56] style: conform to flake8 guidelines - Iteration 119
 - [2026-02-12 22:08] fix(parser): handle empty pdf edge cases - Iteration 120
+- [2026-02-13 02:31] refactor(eval): streamline ragas matrix calculations - Iteration 121
