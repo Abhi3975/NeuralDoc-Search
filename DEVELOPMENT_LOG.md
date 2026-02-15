@@ -126,3 +126,4 @@
 - [2026-02-13 19:05] fix(ui): patch particle canvas memory leak - Iteration 123
 - [2026-02-13 23:06] chore(config): adjust streamlit layout constraints - Iteration 124
 - [2026-02-15 14:03] fix(ui): sidebar state preservation bug - Iteration 125
+- [2026-02-16 02:02] style: migrate primary accents to indigo - Iteration 126
