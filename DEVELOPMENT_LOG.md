@@ -128,3 +128,4 @@
 - [2026-02-15 14:03] fix(ui): sidebar state preservation bug - Iteration 125
 - [2026-02-16 02:02] style: migrate primary accents to indigo - Iteration 126
 - [2026-02-16 14:32] feat(core): implement robust chunking offset - Iteration 127
+- [2026-02-18 03:49] fix(ui): sidebar state preservation bug - Iteration 128
