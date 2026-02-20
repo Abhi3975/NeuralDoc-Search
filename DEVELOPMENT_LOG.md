@@ -130,3 +130,4 @@
 - [2026-02-16 14:32] feat(core): implement robust chunking offset - Iteration 127
 - [2026-02-18 03:49] fix(ui): sidebar state preservation bug - Iteration 128
 - [2026-02-18 12:01] feat(core): implement robust chunking offset - Iteration 129
+- [2026-02-20 10:01] docs: clarify Serverless architecture in README - Iteration 130
