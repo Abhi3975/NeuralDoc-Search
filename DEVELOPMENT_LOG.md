@@ -134,3 +134,4 @@
 - [2026-02-20 15:11] fix(parser): handle empty pdf edge cases - Iteration 131
 - [2026-02-22 15:00] feat(generator): support dynamic prompt injection - Iteration 132
 - [2026-02-22 15:12] docs: add new metrics to validation matrix - Iteration 133
+- [2026-02-22 16:10] fix(ui): patch particle canvas memory leak - Iteration 134
