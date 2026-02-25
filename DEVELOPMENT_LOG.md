@@ -140,3 +140,4 @@
 - [2026-02-25 03:09] style: conform to flake8 guidelines - Iteration 137
 - [2026-02-25 07:01] chore(config): adjust streamlit layout constraints - Iteration 138
 - [2026-02-25 14:58] fix(ui): sidebar state preservation bug - Iteration 139
+- [2026-02-25 15:20] refactor(search): optimize BM25 tokenization overlay - Iteration 140
