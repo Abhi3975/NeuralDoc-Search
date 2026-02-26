@@ -142,3 +142,4 @@
 - [2026-02-25 14:58] fix(ui): sidebar state preservation bug - Iteration 139
 - [2026-02-25 15:20] refactor(search): optimize BM25 tokenization overlay - Iteration 140
 - [2026-02-26 16:38] feat(reranker): implement semantic optimizer bounds - Iteration 141
+- [2026-02-26 18:46] fix(ui): patch particle canvas memory leak - Iteration 142
