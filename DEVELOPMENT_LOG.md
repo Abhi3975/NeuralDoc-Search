@@ -143,3 +143,4 @@
 - [2026-02-25 15:20] refactor(search): optimize BM25 tokenization overlay - Iteration 140
 - [2026-02-26 16:38] feat(reranker): implement semantic optimizer bounds - Iteration 141
 - [2026-02-26 18:46] fix(ui): patch particle canvas memory leak - Iteration 142
+- [2026-02-27 04:27] fix(llm): resolve API streaming race condition - Iteration 143
