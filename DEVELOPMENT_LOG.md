@@ -141,3 +141,4 @@
 - [2026-02-25 07:01] chore(config): adjust streamlit layout constraints - Iteration 138
 - [2026-02-25 14:58] fix(ui): sidebar state preservation bug - Iteration 139
 - [2026-02-25 15:20] refactor(search): optimize BM25 tokenization overlay - Iteration 140
+- [2026-02-26 16:38] feat(reranker): implement semantic optimizer bounds - Iteration 141
