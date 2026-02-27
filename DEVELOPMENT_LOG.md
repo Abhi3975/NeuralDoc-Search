@@ -144,3 +144,4 @@
 - [2026-02-26 16:38] feat(reranker): implement semantic optimizer bounds - Iteration 141
 - [2026-02-26 18:46] fix(ui): patch particle canvas memory leak - Iteration 142
 - [2026-02-27 04:27] fix(llm): resolve API streaming race condition - Iteration 143
+- [2026-02-27 07:49] chore(config): adjust streamlit layout constraints - Iteration 144
