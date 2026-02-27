@@ -146,3 +146,4 @@
 - [2026-02-27 04:27] fix(llm): resolve API streaming race condition - Iteration 143
 - [2026-02-27 07:49] chore(config): adjust streamlit layout constraints - Iteration 144
 - [2026-02-27 10:49] refactor(eval): streamline ragas matrix calculations - Iteration 145
+- [2026-02-27 11:54] feat(parser): integrate PyMuPDF stream abstraction - Iteration 146
