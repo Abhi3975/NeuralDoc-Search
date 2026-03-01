@@ -149,3 +149,4 @@
 - [2026-02-27 11:54] feat(parser): integrate PyMuPDF stream abstraction - Iteration 146
 - [2026-02-28 13:19] feat(reranker): implement semantic optimizer bounds - Iteration 147
 - [2026-02-28 13:24] fix(ui): sidebar state preservation bug - Iteration 148
+- [2026-03-01 09:52] feat(generator): support dynamic prompt injection - Iteration 149
