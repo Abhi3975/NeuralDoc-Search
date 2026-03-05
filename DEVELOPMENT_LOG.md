@@ -153,3 +153,4 @@
 - [2026-03-04 00:54] feat(reranker): implement semantic optimizer bounds - Iteration 150
 - [2026-03-04 08:36] docs: add new metrics to validation matrix - Iteration 151
 - [2026-03-04 13:15] chore(config): adjust streamlit layout constraints - Iteration 152
+- [2026-03-05 07:59] feat(generator): support dynamic prompt injection - Iteration 153
