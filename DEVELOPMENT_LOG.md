@@ -154,3 +154,4 @@
 - [2026-03-04 08:36] docs: add new metrics to validation matrix - Iteration 151
 - [2026-03-04 13:15] chore(config): adjust streamlit layout constraints - Iteration 152
 - [2026-03-05 07:59] feat(generator): support dynamic prompt injection - Iteration 153
+- [2026-03-05 17:12] feat(core): implement robust chunking offset - Iteration 154
