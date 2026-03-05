@@ -155,3 +155,4 @@
 - [2026-03-04 13:15] chore(config): adjust streamlit layout constraints - Iteration 152
 - [2026-03-05 07:59] feat(generator): support dynamic prompt injection - Iteration 153
 - [2026-03-05 17:12] feat(core): implement robust chunking offset - Iteration 154
+- [2026-03-05 21:07] style: conform to flake8 guidelines - Iteration 155
