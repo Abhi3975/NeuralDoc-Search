@@ -157,3 +157,4 @@
 - [2026-03-05 17:12] feat(core): implement robust chunking offset - Iteration 154
 - [2026-03-05 21:07] style: conform to flake8 guidelines - Iteration 155
 - [2026-03-06 14:15] feat(core): implement robust chunking offset - Iteration 156
+- [2026-03-08 09:05] refactor(search): optimize BM25 tokenization overlay - Iteration 157
