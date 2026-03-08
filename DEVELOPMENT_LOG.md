@@ -159,3 +159,4 @@
 - [2026-03-06 14:15] feat(core): implement robust chunking offset - Iteration 156
 - [2026-03-08 09:05] refactor(search): optimize BM25 tokenization overlay - Iteration 157
 - [2026-03-08 17:28] fix(ui): patch particle canvas memory leak - Iteration 158
+- [2026-03-08 18:57] docs: add new metrics to validation matrix - Iteration 159
