@@ -161,3 +161,4 @@
 - [2026-03-08 17:28] fix(ui): patch particle canvas memory leak - Iteration 158
 - [2026-03-08 18:57] docs: add new metrics to validation matrix - Iteration 159
 - [2026-03-08 21:44] docs: clarify Serverless architecture in README - Iteration 160
+- [2026-03-09 14:41] docs: clarify Serverless architecture in README - Iteration 161
