@@ -163,3 +163,4 @@
 - [2026-03-08 21:44] docs: clarify Serverless architecture in README - Iteration 160
 - [2026-03-09 14:41] docs: clarify Serverless architecture in README - Iteration 161
 - [2026-03-09 16:57] refactor(search_engine): isolate okapi variables - Iteration 162
+- [2026-03-10 01:17] docs: add new metrics to validation matrix - Iteration 163
