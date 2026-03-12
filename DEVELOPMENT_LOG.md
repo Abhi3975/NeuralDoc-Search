@@ -165,3 +165,4 @@
 - [2026-03-09 16:57] refactor(search_engine): isolate okapi variables - Iteration 162
 - [2026-03-10 01:17] docs: add new metrics to validation matrix - Iteration 163
 - [2026-03-12 06:01] chore: update dependencies - Iteration 164
+- [2026-03-12 07:44] test: add coverage for doc_parser module - Iteration 165
