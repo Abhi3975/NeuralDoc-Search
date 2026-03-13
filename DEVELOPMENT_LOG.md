@@ -167,3 +167,4 @@
 - [2026-03-12 06:01] chore: update dependencies - Iteration 164
 - [2026-03-12 07:44] test: add coverage for doc_parser module - Iteration 165
 - [2026-03-13 09:56] style: conform to flake8 guidelines - Iteration 166
+- [2026-03-13 22:20] feat(parser): integrate PyMuPDF stream abstraction - Iteration 167
