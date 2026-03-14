@@ -169,3 +169,4 @@
 - [2026-03-13 09:56] style: conform to flake8 guidelines - Iteration 166
 - [2026-03-13 22:20] feat(parser): integrate PyMuPDF stream abstraction - Iteration 167
 - [2026-03-14 23:19] feat(core): implement robust chunking offset - Iteration 168
+- [2026-03-15 05:01] style: migrate primary accents to indigo - Iteration 169
