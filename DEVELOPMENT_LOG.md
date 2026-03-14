@@ -168,3 +168,4 @@
 - [2026-03-12 07:44] test: add coverage for doc_parser module - Iteration 165
 - [2026-03-13 09:56] style: conform to flake8 guidelines - Iteration 166
 - [2026-03-13 22:20] feat(parser): integrate PyMuPDF stream abstraction - Iteration 167
+- [2026-03-14 23:19] feat(core): implement robust chunking offset - Iteration 168
