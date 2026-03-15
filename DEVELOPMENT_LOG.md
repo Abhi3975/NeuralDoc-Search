@@ -170,3 +170,4 @@
 - [2026-03-13 22:20] feat(parser): integrate PyMuPDF stream abstraction - Iteration 167
 - [2026-03-14 23:19] feat(core): implement robust chunking offset - Iteration 168
 - [2026-03-15 05:01] style: migrate primary accents to indigo - Iteration 169
+- [2026-03-15 22:18] fix(llm): resolve API streaming race condition - Iteration 170
