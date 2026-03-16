@@ -171,3 +171,4 @@
 - [2026-03-14 23:19] feat(core): implement robust chunking offset - Iteration 168
 - [2026-03-15 05:01] style: migrate primary accents to indigo - Iteration 169
 - [2026-03-15 22:18] fix(llm): resolve API streaming race condition - Iteration 170
+- [2026-03-16 16:31] chore(config): adjust streamlit layout constraints - Iteration 171
