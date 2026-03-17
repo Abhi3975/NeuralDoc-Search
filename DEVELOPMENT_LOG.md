@@ -178,3 +178,4 @@
 - [2026-03-17 15:47] refactor(search_engine): isolate okapi variables - Iteration 175
 - [2026-03-17 18:15] refactor(eval): streamline ragas matrix calculations - Iteration 176
 - [2026-03-17 21:10] fix(ui): sidebar state preservation bug - Iteration 177
+- [2026-03-18 04:04] fix(ui): sidebar state preservation bug - Iteration 178
