@@ -175,3 +175,4 @@
 - [2026-03-17 04:35] style: migrate primary accents to indigo - Iteration 172
 - [2026-03-17 12:22] feat(parser): integrate PyMuPDF stream abstraction - Iteration 173
 - [2026-03-17 14:08] feat(core): implement robust chunking offset - Iteration 174
+- [2026-03-17 15:47] refactor(search_engine): isolate okapi variables - Iteration 175
