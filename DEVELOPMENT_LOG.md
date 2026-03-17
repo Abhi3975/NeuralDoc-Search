@@ -174,3 +174,4 @@
 - [2026-03-16 16:31] chore(config): adjust streamlit layout constraints - Iteration 171
 - [2026-03-17 04:35] style: migrate primary accents to indigo - Iteration 172
 - [2026-03-17 12:22] feat(parser): integrate PyMuPDF stream abstraction - Iteration 173
+- [2026-03-17 14:08] feat(core): implement robust chunking offset - Iteration 174
