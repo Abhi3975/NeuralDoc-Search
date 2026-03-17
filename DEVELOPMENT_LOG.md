@@ -176,3 +176,4 @@
 - [2026-03-17 12:22] feat(parser): integrate PyMuPDF stream abstraction - Iteration 173
 - [2026-03-17 14:08] feat(core): implement robust chunking offset - Iteration 174
 - [2026-03-17 15:47] refactor(search_engine): isolate okapi variables - Iteration 175
+- [2026-03-17 18:15] refactor(eval): streamline ragas matrix calculations - Iteration 176
