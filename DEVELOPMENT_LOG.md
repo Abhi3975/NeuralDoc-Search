@@ -181,3 +181,4 @@
 - [2026-03-18 04:04] fix(ui): sidebar state preservation bug - Iteration 178
 - [2026-03-18 08:39] refactor(search): optimize BM25 tokenization overlay - Iteration 179
 - [2026-03-20 12:47] feat(parser): integrate PyMuPDF stream abstraction - Iteration 180
+- [2026-03-20 19:42] docs: clarify Serverless architecture in README - Iteration 181
