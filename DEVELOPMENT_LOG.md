@@ -183,3 +183,4 @@
 - [2026-03-20 12:47] feat(parser): integrate PyMuPDF stream abstraction - Iteration 180
 - [2026-03-20 19:42] docs: clarify Serverless architecture in README - Iteration 181
 - [2026-03-21 12:28] docs: clarify Serverless architecture in README - Iteration 182
+- [2026-03-21 14:31] feat(reranker): implement semantic optimizer bounds - Iteration 183
