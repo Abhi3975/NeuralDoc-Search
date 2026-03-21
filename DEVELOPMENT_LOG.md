@@ -186,3 +186,4 @@
 - [2026-03-21 14:31] feat(reranker): implement semantic optimizer bounds - Iteration 183
 - [2026-03-21 16:03] fix(llm): resolve API streaming race condition - Iteration 184
 - [2026-03-21 17:46] fix(llm): resolve API streaming race condition - Iteration 185
+- [2026-03-21 21:27] refactor(search): optimize BM25 tokenization overlay - Iteration 186
