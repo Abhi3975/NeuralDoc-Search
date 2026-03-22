@@ -189,3 +189,4 @@
 - [2026-03-21 21:27] refactor(search): optimize BM25 tokenization overlay - Iteration 186
 - [2026-03-22 19:59] fix(llm): resolve API streaming race condition - Iteration 187
 - [2026-03-22 22:06] feat(generator): support dynamic prompt injection - Iteration 188
+- [2026-03-22 23:15] fix(llm): resolve API streaming race condition - Iteration 189
