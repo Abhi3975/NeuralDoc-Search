@@ -193,3 +193,4 @@
 - [2026-03-23 00:43] feat(reranker): implement semantic optimizer bounds - Iteration 190
 - [2026-03-23 03:28] refactor(eval): streamline ragas matrix calculations - Iteration 191
 - [2026-03-23 13:38] docs: add new metrics to validation matrix - Iteration 192
+- [2026-03-23 15:24] fix(llm): resolve API streaming race condition - Iteration 193
