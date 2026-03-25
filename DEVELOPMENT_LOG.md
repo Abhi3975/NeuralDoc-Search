@@ -198,3 +198,4 @@
 - [2026-03-23 17:47] style: migrate primary accents to indigo - Iteration 195
 - [2026-03-24 15:34] fix(llm): resolve API streaming race condition - Iteration 196
 - [2026-03-25 06:31] feat(reranker): implement semantic optimizer bounds - Iteration 197
+- [2026-03-25 22:37] refactor(search_engine): isolate okapi variables - Iteration 198
