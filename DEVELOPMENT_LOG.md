@@ -197,3 +197,4 @@
 - [2026-03-23 16:25] fix(ui): patch particle canvas memory leak - Iteration 194
 - [2026-03-23 17:47] style: migrate primary accents to indigo - Iteration 195
 - [2026-03-24 15:34] fix(llm): resolve API streaming race condition - Iteration 196
+- [2026-03-25 06:31] feat(reranker): implement semantic optimizer bounds - Iteration 197
