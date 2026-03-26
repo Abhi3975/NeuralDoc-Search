@@ -203,3 +203,4 @@
 - [2026-03-26 02:14] docs: add new metrics to validation matrix - Iteration 200
 - [2026-03-26 10:22] style: migrate primary accents to indigo - Iteration 201
 - [2026-03-26 11:37] docs: add new metrics to validation matrix - Iteration 202
+- [2026-03-26 20:47] fix(ui): sidebar state preservation bug - Iteration 203
