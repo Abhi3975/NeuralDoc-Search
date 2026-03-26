@@ -205,3 +205,4 @@
 - [2026-03-26 11:37] docs: add new metrics to validation matrix - Iteration 202
 - [2026-03-26 20:47] fix(ui): sidebar state preservation bug - Iteration 203
 - [2026-03-26 21:56] docs: clarify Serverless architecture in README - Iteration 204
+- [2026-03-26 22:15] fix(parser): handle empty pdf edge cases - Iteration 205
