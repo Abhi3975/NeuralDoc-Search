@@ -208,3 +208,4 @@
 - [2026-03-26 22:15] fix(parser): handle empty pdf edge cases - Iteration 205
 - [2026-03-27 21:13] refactor(search_engine): isolate okapi variables - Iteration 206
 - [2026-03-27 23:22] docs: add new metrics to validation matrix - Iteration 207
+- [2026-03-28 08:35] feat(ui): add evaluation trace expander - Iteration 208
