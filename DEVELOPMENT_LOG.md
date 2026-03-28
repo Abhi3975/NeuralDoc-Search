@@ -210,3 +210,4 @@
 - [2026-03-27 23:22] docs: add new metrics to validation matrix - Iteration 207
 - [2026-03-28 08:35] feat(ui): add evaluation trace expander - Iteration 208
 - [2026-03-28 16:28] fix(parser): handle empty pdf edge cases - Iteration 209
+- [2026-03-28 21:30] feat(generator): support dynamic prompt injection - Iteration 210
