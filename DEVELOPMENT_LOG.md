@@ -213,3 +213,4 @@
 - [2026-03-28 21:30] feat(generator): support dynamic prompt injection - Iteration 210
 - [2026-03-29 17:28] feat(reranker): implement semantic optimizer bounds - Iteration 211
 - [2026-03-29 19:05] refactor(eval): streamline ragas matrix calculations - Iteration 212
+- [2026-03-30 03:10] fix(ui): sidebar state preservation bug - Iteration 213
