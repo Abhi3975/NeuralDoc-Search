@@ -217,3 +217,4 @@
 - [2026-03-30 06:57] style: migrate primary accents to indigo - Iteration 214
 - [2026-03-31 01:58] style: conform to flake8 guidelines - Iteration 215
 - [2026-03-31 03:35] refactor(search): optimize BM25 tokenization overlay - Iteration 216
+- [2026-04-01 05:00] feat(core): implement robust chunking offset - Iteration 217
