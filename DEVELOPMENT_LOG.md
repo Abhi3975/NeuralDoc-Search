@@ -224,3 +224,4 @@
 - [2026-04-02 08:37] feat(reranker): implement semantic optimizer bounds - Iteration 221
 - [2026-04-03 10:35] fix(llm): resolve API streaming race condition - Iteration 222
 - [2026-04-03 13:38] style: conform to flake8 guidelines - Iteration 223
+- [2026-04-04 09:21] feat(ui): add evaluation trace expander - Iteration 224
