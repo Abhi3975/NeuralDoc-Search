@@ -226,3 +226,4 @@
 - [2026-04-03 13:38] style: conform to flake8 guidelines - Iteration 223
 - [2026-04-04 09:21] feat(ui): add evaluation trace expander - Iteration 224
 - [2026-04-05 00:24] refactor(search_engine): isolate okapi variables - Iteration 225
+- [2026-04-06 04:25] test: add coverage for doc_parser module - Iteration 226
