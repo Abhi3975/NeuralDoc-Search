@@ -233,3 +233,4 @@
 - [2026-04-09 00:51] chore: update dependencies - Iteration 230
 - [2026-04-09 08:59] chore: update dependencies - Iteration 231
 - [2026-04-09 20:36] fix(parser): handle empty pdf edge cases - Iteration 232
+- [2026-04-10 05:11] chore(config): adjust streamlit layout constraints - Iteration 233
