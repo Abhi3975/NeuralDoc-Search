@@ -234,3 +234,4 @@
 - [2026-04-09 08:59] chore: update dependencies - Iteration 231
 - [2026-04-09 20:36] fix(parser): handle empty pdf edge cases - Iteration 232
 - [2026-04-10 05:11] chore(config): adjust streamlit layout constraints - Iteration 233
+- [2026-04-11 01:17] fix(ui): sidebar state preservation bug - Iteration 234
