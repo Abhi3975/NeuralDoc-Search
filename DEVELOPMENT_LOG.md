@@ -237,3 +237,4 @@
 - [2026-04-11 01:17] fix(ui): sidebar state preservation bug - Iteration 234
 - [2026-04-11 02:53] fix(llm): resolve API streaming race condition - Iteration 235
 - [2026-04-11 05:42] chore(config): adjust streamlit layout constraints - Iteration 236
+- [2026-04-11 23:16] refactor(search): optimize BM25 tokenization overlay - Iteration 237
