@@ -241,3 +241,4 @@
 - [2026-04-13 06:26] refactor(search_engine): isolate okapi variables - Iteration 238
 - [2026-04-14 13:20] refactor(search): optimize BM25 tokenization overlay - Iteration 239
 - [2026-04-14 13:53] chore(config): adjust streamlit layout constraints - Iteration 240
+- [2026-04-15 03:12] test: add coverage for doc_parser module - Iteration 241
