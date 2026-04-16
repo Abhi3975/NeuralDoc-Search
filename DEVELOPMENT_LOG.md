@@ -244,3 +244,4 @@
 - [2026-04-15 03:12] test: add coverage for doc_parser module - Iteration 241
 - [2026-04-15 09:58] chore: update dependencies - Iteration 242
 - [2026-04-15 20:25] chore: update dependencies - Iteration 243
+- [2026-04-16 11:26] fix(ui): patch particle canvas memory leak - Iteration 244
