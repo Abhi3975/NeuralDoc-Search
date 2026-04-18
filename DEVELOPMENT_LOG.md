@@ -246,3 +246,4 @@
 - [2026-04-15 20:25] chore: update dependencies - Iteration 243
 - [2026-04-16 11:26] fix(ui): patch particle canvas memory leak - Iteration 244
 - [2026-04-17 13:37] refactor(search_engine): isolate okapi variables - Iteration 245
+- [2026-04-18 14:17] feat(parser): integrate PyMuPDF stream abstraction - Iteration 246
