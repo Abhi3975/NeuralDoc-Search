@@ -126,12 +126,8 @@ with st.sidebar:
     st.divider()
     st.markdown("<p style='font-size:0.72rem; color:#64748b; text-transform:uppercase; letter-spacing:0.8px; font-weight:600;'>Groq Settings</p>", unsafe_allow_html=True)
 
-    api_key = st.text_input("API Key", type="password", placeholder="gsk_...", label_visibility="collapsed")
-    if not api_key:
-        try:
-            api_key = st.secrets.get("GROQ_API_KEY", "") or os.getenv("GROQ_API_KEY", "")
-        except:
-            api_key = os.getenv("GROQ_API_KEY", "")
+    st.text_input("API Key (Managed by Backend)", type="password", value="••••••••••••••••••••", disabled=True, label_visibility="collapsed")
+    api_key = os.getenv("GROQ_API_KEY", "")
 
     model = st.selectbox("Model", [
         "llama-3.3-70b-versatile",
