@@ -120,16 +120,36 @@ st.markdown("""
     }
 
     /* Chat input */
-    .stChatInput textarea {
-        background: rgba(255,255,255,0.05) !important;
+    .stChatInput textarea,
+    .stChatInput > div > div > div > textarea,
+    div[data-testid="stChatInput"] textarea,
+    div[data-baseweb="textarea"] textarea {
+        background: #0d1117 !important;
         border: 1px solid rgba(99,102,241,0.35) !important;
         border-radius: 12px !important;
         color: #f1f5f9 !important;
+        caret-color: #6366f1 !important;
         font-family: 'Inter', sans-serif !important;
+        font-size: 0.95rem !important;
     }
-    .stChatInput textarea:focus {
+    .stChatInput textarea:focus,
+    div[data-testid="stChatInput"] textarea:focus {
         border-color: #6366f1 !important;
         box-shadow: 0 0 20px rgba(99,102,241,0.3) !important;
+        color: #f8fafc !important;
+        background: #111827 !important;
+    }
+    .stChatInput textarea::placeholder {
+        color: #4b5563 !important;
+    }
+    /* Force chat input wrapper dark */
+    div[data-testid="stChatInput"] {
+        background: #0d1117 !important;
+        border-radius: 14px !important;
+    }
+    div[data-baseweb="textarea"] {
+        background: #0d1117 !important;
+        border-radius: 12px !important;
     }
 
     /* Alerts */
