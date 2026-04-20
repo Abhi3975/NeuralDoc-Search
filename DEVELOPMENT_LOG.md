@@ -249,3 +249,4 @@
 - [2026-04-18 14:17] feat(parser): integrate PyMuPDF stream abstraction - Iteration 246
 - [2026-04-19 20:42] feat(ui): add evaluation trace expander - Iteration 247
 - [2026-04-20 15:37] fix(ui): patch particle canvas memory leak - Iteration 248
+- [2026-04-20 20:55] docs: add new metrics to validation matrix - Iteration 249
