@@ -313,14 +313,14 @@ with st.sidebar:
     st.markdown("<p style='font-size:0.72rem; color:#64748b; text-transform:uppercase; letter-spacing:0.8px; font-weight:600;'>Mode</p>", unsafe_allow_html=True)
     app_mode = st.radio("Mode", ["Chat", "Evaluate"], label_visibility="collapsed")
 
-# ── Evaluate mode ──
+
 if app_mode == "Evaluate":
     st.markdown("<h2 style='font-size:1.3rem; font-weight:700;'>Evaluation</h2>", unsafe_allow_html=True)
     has_data = "chunks" in st.session_state and st.session_state.chunks
 
     eval_tab1, eval_tab2, eval_tab3 = st.tabs(["Retrieval eval", "Answer eval", "RAGAS"])
 
-    # ── TAB 1: Retrieval eval ──
+    
     with eval_tab1:
         st.info("**Recall@k** measures the fraction of relevant documents found in the top-k results. "
                 "**Precision@k** measures how many of the top-k results are actually relevant.")
@@ -348,7 +348,7 @@ if app_mode == "Evaluate":
         st.markdown("**Current TEST_SET** (edit `eval/retrieval_eval.py` to add real chunk IDs):")
         st.code(json.dumps(TEST_SET, indent=2), language="json")
 
-    # ── TAB 2: Answer eval ──
+    
     with eval_tab2:
         st.info("**Faithfulness** measures whether the answer is supported by the provided context. "
                 "**Relevancy** measures how well the answer addresses the question.")
@@ -390,7 +390,7 @@ if app_mode == "Evaluate":
             df.columns = ["Question", "Faithfulness", "Relevancy"]
             st.dataframe(df, use_container_width=True)
 
-    # ── TAB 3: RAGAS ──
+    
     with eval_tab3:
         st.info("**RAGAS** (Retrieval Augmented Generation Assessment) evaluates your RAG pipeline with 4 metrics: "
                 "faithfulness, answer_relevancy, context_recall, and context_precision. "
@@ -435,7 +435,7 @@ if app_mode == "Evaluate":
 
     st.stop()
 
-# ── Chat mode ──
+
 if not st.session_state.messages and st.session_state.bm25_index is None:
     st.components.v1.html("""
 <!DOCTYPE html>
