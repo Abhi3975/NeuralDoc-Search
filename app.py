@@ -558,6 +558,25 @@ if query:
     with st.chat_message("user"):
         st.write(query)
 
+    q_upper = query.upper()
+    if "OPEN" in q_upper:
+        if "ETHEREAL RETAIL" in q_upper:
+            proj, link = "Ethereal Retail", "https://ethereal-retail.vercel.app"
+        elif "CLARITYAI" in q_upper or "CLARITY AI" in q_upper:
+            proj, link = "ClarityAI", "https://clarity-ai.vercel.app"
+        elif "ECOCYCLE" in q_upper or "ECO CYCLE" in q_upper:
+            proj, link = "EcoCycle", "https://eco-cycle.vercel.app"
+        else:
+            proj, link = None, None
+
+        if proj and link:
+            msg = f"Opening **{proj}** in a new tab... If popups are blocked, **[Click here to launch directly]({link})**!"
+            st.components.v1.html(f"<script>window.parent.open('{link}', '_blank');</script>", height=0)
+            st.session_state.messages.append({"role": "assistant", "content": msg})
+            with st.chat_message("assistant"):
+                st.markdown(msg)
+            st.stop()
+
     with st.spinner("Retrieving..."):
         bm25_results = search(query, st.session_state.bm25_index, st.session_state.chunks, top_k=top_k)
 
