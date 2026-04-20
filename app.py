@@ -23,61 +23,206 @@ st.markdown("""
 
     [data-testid="collapsedControl"] {display: none !important;}
 
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+    html, body, [class*="css"] {
+        font-family: 'Inter', sans-serif !important;
+    }
+
+    /* Dark background for entire app */
+    .stApp {
+        background: linear-gradient(135deg, #0a0a0f 0%, #0d1117 50%, #0a0a1a 100%) !important;
+        background-attachment: fixed !important;
+    }
+
+    /* Sidebar */
     section[data-testid="stSidebar"] {
-        min-width: 320px !important;
-        max-width: 320px !important;
+        min-width: 300px !important;
+        max-width: 300px !important;
         transform: none !important;
         visibility: visible !important;
         display: block !important;
+        background: linear-gradient(180deg, #0d1117 0%, #111827 100%) !important;
+        border-right: 1px solid rgba(99,102,241,0.2) !important;
     }
     section[data-testid="stSidebar"] > div {
-        width: 320px !important;
+        width: 300px !important;
+    }
+    div[data-testid="stSidebarContent"] {
+        background: transparent !important;
+        padding: 1.2rem !important;
     }
 
     .block-container {
-        padding-top: 1.5rem;
+        padding-top: 1rem;
         padding-left: 2rem;
         padding-right: 2rem;
+        max-width: 100% !important;
     }
 
+    /* Buttons */
     .stButton > button {
-        background-color: #6366f1 !important;
-        color: #000 !important;
+        background: linear-gradient(135deg, #6366f1, #8b5cf6) !important;
+        color: #fff !important;
         border: none !important;
-        border-radius: 6px !important;
+        border-radius: 8px !important;
         font-weight: 600 !important;
         font-size: 0.85rem !important;
+        letter-spacing: 0.3px !important;
+        padding: 0.55rem 1rem !important;
+        transition: all 0.25s ease !important;
+        box-shadow: 0 0 15px rgba(99,102,241,0.3) !important;
     }
     .stButton > button:hover {
-        background-color: #4f46e5 !important;
-        color: #fff !important;
+        background: linear-gradient(135deg, #4f46e5, #7c3aed) !important;
+        box-shadow: 0 0 25px rgba(99,102,241,0.6) !important;
+        transform: translateY(-1px) !important;
     }
 
-    div[data-testid="stSidebarContent"] {
-        background-color: #f8fafb;
-        border-right: 1px solid #e2e8f0;
+    /* Inputs */
+    .stTextInput > div > div > input, .stTextArea textarea {
+        border-radius: 8px !important;
+        border: 1px solid rgba(99,102,241,0.3) !important;
+        background: rgba(255,255,255,0.04) !important;
+        color: #e2e8f0 !important;
+        font-family: 'Inter', sans-serif !important;
+    }
+    .stTextInput > div > div > input:focus, .stTextArea textarea:focus {
+        border-color: #6366f1 !important;
+        box-shadow: 0 0 0 2px rgba(99,102,241,0.2) !important;
     }
 
-    .stTextInput > div > div > input {
-        border-radius: 6px;
-        border: 1px solid #e2e8f0;
-    }
-
+    /* Selectbox */
     .stSelectbox > div > div {
-        border-radius: 6px;
+        border-radius: 8px !important;
+        border: 1px solid rgba(99,102,241,0.3) !important;
+        background: rgba(255,255,255,0.04) !important;
+        color: #e2e8f0 !important;
     }
 
+    /* Expander */
     .stExpander {
-        border: 1px solid #e2e8f0 !important;
-        border-radius: 6px !important;
+        border: 1px solid rgba(99,102,241,0.2) !important;
+        border-radius: 10px !important;
+        background: rgba(255,255,255,0.02) !important;
+    }
+    .stExpander summary {
+        color: #a5b4fc !important;
     }
 
+    /* Chat messages */
     .stChatMessage {
-        border-radius: 10px;
+        border-radius: 14px !important;
+        border: 1px solid rgba(99,102,241,0.15) !important;
+        background: rgba(255,255,255,0.03) !important;
+        backdrop-filter: blur(10px) !important;
+        margin-bottom: 0.5rem !important;
     }
 
+    /* Chat input */
+    .stChatInput textarea {
+        background: rgba(255,255,255,0.05) !important;
+        border: 1px solid rgba(99,102,241,0.35) !important;
+        border-radius: 12px !important;
+        color: #f1f5f9 !important;
+        font-family: 'Inter', sans-serif !important;
+    }
+    .stChatInput textarea:focus {
+        border-color: #6366f1 !important;
+        box-shadow: 0 0 20px rgba(99,102,241,0.3) !important;
+    }
+
+    /* Alerts */
     .stAlert {
-        border-radius: 6px;
+        border-radius: 10px !important;
+        border: 1px solid rgba(99,102,241,0.2) !important;
+        background: rgba(99,102,241,0.07) !important;
+    }
+
+    /* Divider */
+    hr {
+        border-color: rgba(99,102,241,0.15) !important;
+        margin: 0.8rem 0 !important;
+    }
+
+    /* Metrics */
+    [data-testid="metric-container"] {
+        background: rgba(99,102,241,0.08) !important;
+        border: 1px solid rgba(99,102,241,0.2) !important;
+        border-radius: 10px !important;
+        padding: 1rem !important;
+    }
+    [data-testid="metric-container"] label {
+        color: #a5b4fc !important;
+    }
+    [data-testid="metric-container"] [data-testid="stMetricValue"] {
+        color: #f1f5f9 !important;
+        font-weight: 700 !important;
+    }
+
+    /* Tabs */
+    .stTabs [data-baseweb="tab-list"] {
+        background: rgba(255,255,255,0.03) !important;
+        border-radius: 10px !important;
+        gap: 0.25rem !important;
+        padding: 0.3rem !important;
+        border: 1px solid rgba(99,102,241,0.15) !important;
+    }
+    .stTabs [data-baseweb="tab"] {
+        border-radius: 8px !important;
+        color: #94a3b8 !important;
+        font-weight: 500 !important;
+    }
+    .stTabs [aria-selected="true"] {
+        background: linear-gradient(135deg, #6366f1, #8b5cf6) !important;
+        color: #fff !important;
+        box-shadow: 0 0 15px rgba(99,102,241,0.4) !important;
+    }
+
+    /* Dataframe */
+    [data-testid="stDataFrame"] {
+        border: 1px solid rgba(99,102,241,0.2) !important;
+        border-radius: 10px !important;
+    }
+
+    /* Spinner */
+    .stSpinner > div {
+        border-top-color: #6366f1 !important;
+    }
+
+    /* Progress bar */
+    .stProgress > div > div {
+        background: linear-gradient(90deg, #6366f1, #8b5cf6) !important;
+        border-radius: 50px !important;
+    }
+
+    /* Sliders */
+    .stSlider [data-testid="stThumbValue"] {
+        color: #6366f1 !important;
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 5px; }
+    ::-webkit-scrollbar-track { background: #0d1117; }
+    ::-webkit-scrollbar-thumb { background: #6366f1; border-radius: 10px; }
+
+    /* Radio */
+    .stRadio label { color: #cbd5e1 !important; }
+    .stRadio [data-testid="stMarkdownContainer"] p { color: #cbd5e1 !important; }
+
+    /* Caption/text */
+    .stMarkdown p, .stText, label, p { color: #cbd5e1 !important; }
+    .stMarkdown h1, .stMarkdown h2, .stMarkdown h3 { color: #f1f5f9 !important; }
+
+    /* File uploader */
+    [data-testid="stFileUploader"] {
+        background: rgba(99,102,241,0.05) !important;
+        border: 2px dashed rgba(99,102,241,0.3) !important;
+        border-radius: 12px !important;
+    }
+    [data-testid="stFileUploader"]:hover {
+        border-color: rgba(99,102,241,0.6) !important;
+        background: rgba(99,102,241,0.08) !important;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -277,267 +422,165 @@ if not st.session_state.messages and st.session_state.bm25_index is None:
 <html>
 <head>
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  html, body { width: 100%; height: 100%; background: #ffffff; overflow: hidden; }
+  html, body { width: 100%; height: 100%; background: #080b14; overflow: hidden; font-family: 'Inter', sans-serif; }
   canvas { position: fixed; top: 0; left: 0; width: 100% !important; height: 100% !important; }
-
   .page {
-    position: fixed;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 10;
-    pointer-events: none;
-    padding: 2rem;
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    display: flex; align-items: center; justify-content: center;
+    z-index: 10; padding: 2rem; gap: 2.5rem;
   }
-
-  .left {
-    flex: 1.1;
-    padding-right: 2rem;
+  .left { flex: 1.2; padding-right: 1rem; }
+  .badge {
+    display: inline-flex; align-items: center; gap: 0.4rem;
+    background: rgba(99,102,241,0.12); border: 1px solid rgba(99,102,241,0.35);
+    border-radius: 999px; padding: 0.28rem 0.85rem;
+    font-size: 0.68rem; font-weight: 600; letter-spacing: 0.8px;
+    color: #a5b4fc; text-transform: uppercase; margin-bottom: 1rem;
   }
-
-  .right {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 0.6rem;
-  }
-
-  .byline {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    font-size: 0.7rem;
-    color: #94a3b8;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 0.5rem;
-  }
-
+  .badge-dot { width: 6px; height: 6px; background: #6366f1; border-radius: 50%; animation: blink 1.8s ease infinite; display: inline-block; }
   h1 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    font-size: 3rem;
-    font-weight: 700;
-    color: #4f46e5;
-    letter-spacing: -1px;
-    line-height: 1.1;
-    margin-bottom: 0.5rem;
+    font-size: 3.4rem; font-weight: 800; line-height: 1.08;
+    letter-spacing: -2px; margin-bottom: 0.7rem;
+    background: linear-gradient(135deg, #fff 30%, #a5b4fc 70%, #818cf8);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
   }
-
-  .subtitle {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    font-size: 0.95rem;
-    color: #64748b;
-    line-height: 1.6;
-    margin-bottom: 1rem;
-    max-width: 420px;
-  }
-
-  .tags { margin-bottom: 1.2rem; }
-
+  .subtitle { font-size: 1rem; color: #94a3b8; line-height: 1.7; margin-bottom: 1.3rem; max-width: 440px; font-weight: 400; }
+  .tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1.4rem; }
   .tag {
-    display: inline-block;
-    margin: 0.2rem 0.2rem 0 0;
-    padding: 0.22rem 0.7rem;
-    border: 1px solid #6366f1;
-    border-radius: 999px;
-    font-size: 0.7rem;
-    color: #6366f1;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    padding: 0.28rem 0.75rem; border: 1px solid rgba(99,102,241,0.35);
+    border-radius: 6px; font-size: 0.68rem; color: #a5b4fc; font-weight: 500;
+    background: rgba(99,102,241,0.07); backdrop-filter: blur(4px);
   }
-
-  .hint {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    font-size: 0.78rem;
-    color: #94a3b8;
-    animation: pulse 2.5s infinite;
-  }
-
+  .hint { font-size: 0.78rem; color: #6366f1; font-weight: 500; display: flex; align-items: center; gap: 0.4rem; animation: glow 2.5s ease infinite; }
+  .arrow { animation: slide 1.5s ease infinite; display: inline-block; }
+  .right { flex: 1; display: flex; flex-direction: column; gap: 0.7rem; }
   .card {
-    background: rgba(255,255,255,0.88);
-    border: 1px solid #e2e8f0;
-    border-radius: 10px;
-    padding: 1rem 1.2rem;
-    backdrop-filter: blur(6px);
+    background: rgba(13,17,27,0.85); border: 1px solid rgba(99,102,241,0.18);
+    border-radius: 14px; padding: 1.1rem 1.3rem; backdrop-filter: blur(16px);
+    position: relative; overflow: hidden; transition: all 0.3s;
   }
-
+  .card::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(99,102,241,0.5), transparent);
+  }
+  .card:hover { border-color: rgba(99,102,241,0.4); transform: translateY(-2px); box-shadow: 0 8px 30px rgba(99,102,241,0.12); }
   .card-title {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    font-size: 0.65rem;
-    text-transform: uppercase;
-    letter-spacing: 0.9px;
-    color: #94a3b8;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
+    font-size: 0.62rem; text-transform: uppercase; letter-spacing: 1px;
+    color: #6366f1; font-weight: 700; margin-bottom: 0.55rem;
+    display: flex; align-items: center; gap: 0.4rem;
   }
-
-  .card-text {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    font-size: 0.78rem;
-    color: #475569;
-    line-height: 1.65;
-  }
-
-  .arch {
-    display: flex;
-    align-items: center;
-    gap: 0.3rem;
-    flex-wrap: wrap;
-  }
-
+  .card-title::before { content: ''; width: 3px; height: 10px; background: #6366f1; border-radius: 2px; display: block; }
+  .card-text { font-size: 0.78rem; color: #94a3b8; line-height: 1.7; }
+  .card-text strong { color: #c7d2fe; }
+  .arch { display: flex; align-items: center; gap: 0.25rem; flex-wrap: wrap; }
   .arch-step {
-    background: #f8fafb;
-    border: 1px solid #e2e8f0;
-    border-radius: 6px;
-    padding: 0.3rem 0.55rem;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    font-size: 0.7rem;
-    color: #1a1a1a;
-    font-weight: 500;
+    background: rgba(99,102,241,0.08); border: 1px solid rgba(99,102,241,0.2);
+    border-radius: 6px; padding: 0.28rem 0.55rem; font-size: 0.67rem; color: #94a3b8; font-weight: 500;
   }
-
-  .arch-step.green {
-    background: #f0fdf4;
-    border-color: #6366f1;
-    color: #4f46e5;
-    font-weight: 600;
-  }
-
-  .arch-arrow {
-    font-size: 0.7rem;
-    color: #cbd5e1;
-  }
-
-  .no-list { display: flex; flex-direction: column; gap: 0.3rem; }
-
-  .no-row {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    font-size: 0.75rem;
-    color: #64748b;
-    display: flex;
-    align-items: center;
-    gap: 0.4rem;
-  }
-
+  .arch-step.accent { background: rgba(99,102,241,0.15); border-color: rgba(99,102,241,0.45); color: #a5b4fc; font-weight: 700; }
+  .arch-arrow { font-size: 0.65rem; color: rgba(99,102,241,0.4); }
+  .no-list { display: flex; flex-direction: column; gap: 0.38rem; }
+  .no-row { font-size: 0.74rem; color: #64748b; display: flex; align-items: center; gap: 0.5rem; }
   .no-badge {
-    background: #fef2f2;
-    color: #ef4444;
-    font-size: 0.62rem;
-    font-weight: 700;
-    padding: 0.1rem 0.4rem;
-    border-radius: 4px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: rgba(239,68,68,0.12); color: #f87171;
+    font-size: 0.58rem; font-weight: 800; padding: 0.1rem 0.4rem;
+    border-radius: 4px; border: 1px solid rgba(239,68,68,0.2); letter-spacing: 0.5px;
   }
-
-  @keyframes pulse {
-    0%, 100% { opacity: 0.3; }
-    50% { opacity: 1; }
-  }
+  @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
+  @keyframes glow { 0%,100%{text-shadow:0 0 8px rgba(99,102,241,0.3)} 50%{text-shadow:0 0 20px rgba(99,102,241,0.7)} }
+  @keyframes slide { 0%,100%{transform:translateX(0)} 50%{transform:translateX(4px)} }
 </style>
 </head>
 <body>
-<canvas id="nn-canvas"></canvas>
+<canvas id="c"></canvas>
 <div class="page">
   <div class="left">
-    <div class="byline">A product by Abhijeet Abhi</div>
-    <h1>NeuralDoc Search</h1>
-    <p class="subtitle">Document Q&A without any legacy infrastructure dependencies. Pure retrieval, pure reasoning.</p>
+    <div class="badge"><span class="badge-dot"></span>Built by Abhijeet Abhi &nbsp;&middot;&nbsp; AI Systems</div>
+    <h1>NeuralDoc<br>Search</h1>
+    <p class="subtitle">Precision document Q&amp;A without vector databases or embedding APIs &mdash; powered by sparse retrieval and semantic reranking.</p>
     <div class="tags">
-      <span class="tag">Sparse Matrix Indexing</span>
-      <span class="tag">Semantic Optimizer</span>
-      <span class="tag">Inference Engine</span>
-      <span class="tag">Serverless Architecture</span>
+      <span class="tag">BM25 Sparse Indexing</span>
+      <span class="tag">Cross-Encoder Reranker</span>
+      <span class="tag">Groq LLM</span>
+      <span class="tag">RAGAS Evaluation</span>
+      <span class="tag">Zero Infrastructure</span>
     </div>
-    <div class="hint">← Upload a document in the sidebar to begin</div>
+    <div class="hint"><span class="arrow">&larr;</span> Upload a document in the sidebar to begin</div>
   </div>
-
   <div class="right">
     <div class="card">
       <div class="card-title">What is NeuralDoc Search?</div>
       <div class="card-text">
-        Traditional RAG converts text into embeddings and stores them in a vector database — requiring expensive infrastructure. NeuralDoc Search replaces this with <strong>BM25</strong> sparse retrieval and a <strong>cross-encoder reranker</strong>, achieving comparable accuracy at zero infra cost.
+        Traditional RAG converts text into embeddings stored in a <strong>vector database</strong> requiring costly APIs. NeuralDoc Search uses <strong>BM25 sparse retrieval</strong> + a <strong>cross-encoder reranker</strong> to achieve the same precision at zero infra cost.
       </div>
     </div>
-
     <div class="card">
       <div class="card-title">System Architecture</div>
       <div class="arch">
-        <div class="arch-step green">PDF / TXT</div>
-        <div class="arch-arrow">→</div>
-        <div class="arch-step">Chunker</div>
-        <div class="arch-arrow">→</div>
-        <div class="arch-step green">BM25 Index</div>
-        <div class="arch-arrow">→</div>
-        <div class="arch-step">Top-20 Chunks</div>
-        <div class="arch-arrow">→</div>
-        <div class="arch-step green">Reranker</div>
-        <div class="arch-arrow">→</div>
-        <div class="arch-step">Top-5 Chunks</div>
-        <div class="arch-arrow">→</div>
-        <div class="arch-step green">Inference Engine</div>
-        <div class="arch-arrow">→</div>
+        <div class="arch-step accent">PDF/TXT</div><div class="arch-arrow">&rarr;</div>
+        <div class="arch-step">Chunker</div><div class="arch-arrow">&rarr;</div>
+        <div class="arch-step accent">BM25 Index</div><div class="arch-arrow">&rarr;</div>
+        <div class="arch-step">Top-20</div><div class="arch-arrow">&rarr;</div>
+        <div class="arch-step accent">Reranker</div><div class="arch-arrow">&rarr;</div>
+        <div class="arch-step">Top-5</div><div class="arch-arrow">&rarr;</div>
+        <div class="arch-step accent">Groq LLM</div><div class="arch-arrow">&rarr;</div>
         <div class="arch-step">Answer</div>
       </div>
     </div>
-
     <div class="card">
       <div class="card-title">No Infrastructure Required</div>
       <div class="no-list">
         <div class="no-row"><span class="no-badge">NO</span> Vector database (Pinecone, Weaviate, Chroma)</div>
-        <div class="no-row"><span class="no-badge">NO</span> Embedding model or API</div>
-        <div class="no-row"><span class="no-badge">NO</span> LangChain or LlamaIndex</div>
+        <div class="no-row"><span class="no-badge">NO</span> Embedding model or external API</div>
+        <div class="no-row"><span class="no-badge">NO</span> LangChain, LlamaIndex, or orchestration overhead</div>
       </div>
     </div>
   </div>
 </div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script>
-const canvas = document.getElementById('nn-canvas');
-const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
-renderer.setClearColor(0xffffff, 1);
-
-function resize() {
-  renderer.setSize(window.innerWidth, window.innerHeight);
-  camera.aspect = window.innerWidth / window.innerHeight;
-  camera.updateProjectionMatrix();
+const canvas = document.getElementById('c');
+const ctx = canvas.getContext('2d');
+canvas.width = window.innerWidth; canvas.height = window.innerHeight;
+const particles = [];
+for(let i=0; i<120; i++){
+  particles.push({
+    x: Math.random()*canvas.width, y: Math.random()*canvas.height,
+    vx: (Math.random()-0.5)*0.3, vy: (Math.random()-0.5)*0.3,
+    r: Math.random()*1.5+0.3, alpha: Math.random()*0.5+0.1
+  });
 }
-
-const scene = new THREE.Scene();
-scene.fog = new THREE.FogExp2(0xffffff, 0.028);
-const camera = new THREE.PerspectiveCamera(55, window.innerWidth / window.innerHeight, 0.1, 100);
-camera.position.set(0, 0, 25);
-resize();
-
-scene.add(new THREE.AmbientLight(0x888888));
-const light = new THREE.PointLight(0x6366f1, 3);
-light.position.set(5, 5, 10);
-scene.add(light);
-
-// Replaced to Particle System
-const particleCount = 2000;
-const geometry = new THREE.BufferGeometry();
-const positions = new Float32Array(particleCount * 3);
-for(let i=0; i<particleCount*3; i++){
-  positions[i] = (Math.random() - 0.5) * 50;
+function draw(){
+  ctx.clearRect(0,0,canvas.width,canvas.height);
+  ctx.fillStyle='#080b14'; ctx.fillRect(0,0,canvas.width,canvas.height);
+  for(let i=0;i<particles.length;i++){
+    for(let j=i+1;j<particles.length;j++){
+      const dx=particles[i].x-particles[j].x, dy=particles[i].y-particles[j].y;
+      const dist=Math.sqrt(dx*dx+dy*dy);
+      if(dist<130){
+        ctx.beginPath(); ctx.moveTo(particles[i].x,particles[i].y); ctx.lineTo(particles[j].x,particles[j].y);
+        ctx.strokeStyle='rgba(99,102,241,'+(0.18*(1-dist/130))+')'; ctx.lineWidth=0.6; ctx.stroke();
+      }
+    }
+    ctx.beginPath(); ctx.arc(particles[i].x,particles[i].y,particles[i].r,0,Math.PI*2);
+    ctx.fillStyle='rgba(99,102,241,'+particles[i].alpha+')';
+    ctx.shadowBlur=8; ctx.shadowColor='rgba(99,102,241,0.6)'; ctx.fill(); ctx.shadowBlur=0;
+    particles[i].x+=particles[i].vx; particles[i].y+=particles[i].vy;
+    if(particles[i].x<0||particles[i].x>canvas.width) particles[i].vx*=-1;
+    if(particles[i].y<0||particles[i].y>canvas.height) particles[i].vy*=-1;
+  }
+  const grd=ctx.createRadialGradient(canvas.width*0.3,canvas.height*0.5,0,canvas.width*0.3,canvas.height*0.5,canvas.width*0.35);
+  grd.addColorStop(0,'rgba(99,102,241,0.06)'); grd.addColorStop(1,'rgba(0,0,0,0)');
+  ctx.fillStyle=grd; ctx.fillRect(0,0,canvas.width,canvas.height);
+  requestAnimationFrame(draw);
 }
-geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
-const material = new THREE.PointsMaterial({color: 0x6366f1, size: 0.1, transparent: true, opacity: 0.8});
-const particles = new THREE.Points(geometry, material);
-scene.add(particles);
-
-function animate() {
-  requestAnimationFrame(animate);
-  particles.rotation.y += 0.001;
-  particles.rotation.x += 0.0005;
-  renderer.render(scene, camera);
-}
-// Mute old animate
-window.addEventListener('resize', resize);
+draw();
+window.addEventListener('resize',()=>{ canvas.width=window.innerWidth; canvas.height=window.innerHeight; });
 </script>
 </body>
 </html>
-""", height=650, scrolling=False)
+""", height=680, scrolling=False)
 
 else:
     for msg in st.session_state.messages:
