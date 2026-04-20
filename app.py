@@ -261,11 +261,18 @@ if "ragas_eval_result" not in st.session_state:
     st.session_state.ragas_eval_result = None
 
 with st.sidebar:
-    st.markdown("<h2 style='font-size:1.1rem; font-weight:700; color:#1a1a1a; margin-bottom:0;'>NeuralDoc Search</h2>", unsafe_allow_html=True)
-    st.markdown("<p style='font-size:0.72rem; color:#64748b; margin-top:2px; text-transform:uppercase; letter-spacing:0.8px;'>BM25 + Reranker + Inference Engine</p>", unsafe_allow_html=True)
+    st.markdown("""
+    <div style='display:flex;align-items:center;gap:0.6rem;padding:0.3rem 0 0.5rem;'>
+      <div style='width:32px;height:32px;background:linear-gradient(135deg,#6366f1,#8b5cf6);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1rem;box-shadow:0 0 12px rgba(99,102,241,0.5);'>🔍</div>
+      <div>
+        <div style='font-size:0.95rem;font-weight:700;color:#f1f5f9;letter-spacing:-0.3px;font-family:Inter,sans-serif;'>NeuralDoc Search</div>
+        <div style='font-size:0.6rem;color:#6366f1;text-transform:uppercase;letter-spacing:1px;font-weight:600;font-family:Inter,sans-serif;'>AI Document Q&A</div>
+      </div>
+    </div>
+    """, unsafe_allow_html=True)
     st.divider()
 
-    st.markdown("<p style='font-size:0.72rem; color:#64748b; text-transform:uppercase; letter-spacing:0.8px; font-weight:600;'>Documents</p>", unsafe_allow_html=True)
+    st.markdown("<p style='font-size:0.68rem;color:#6366f1;text-transform:uppercase;letter-spacing:1px;font-weight:700;margin-bottom:0.3rem;font-family:Inter,sans-serif;'>📄 Documents</p>", unsafe_allow_html=True)
     uploaded_files = st.file_uploader("Upload", type=["pdf", "txt"], accept_multiple_files=True, label_visibility="collapsed")
 
     with st.expander("Chunking Settings", expanded=False):
@@ -289,7 +296,7 @@ with st.sidebar:
             st.warning("Upload at least one file first.")
 
     st.divider()
-    st.markdown("<p style='font-size:0.72rem; color:#64748b; text-transform:uppercase; letter-spacing:0.8px; font-weight:600;'>Groq Settings</p>", unsafe_allow_html=True)
+    st.markdown("<p style='font-size:0.68rem;color:#6366f1;text-transform:uppercase;letter-spacing:1px;font-weight:700;margin-bottom:0.3rem;font-family:Inter,sans-serif;'>⚡ Inference Settings</p>", unsafe_allow_html=True)
 
     st.text_input("API Key (Managed by Backend)", type="password", value="••••••••••••••••••••", disabled=True, label_visibility="collapsed")
     api_key = os.getenv("GROQ_API_KEY", "")
@@ -310,7 +317,7 @@ with st.sidebar:
         st.rerun()
 
     st.divider()
-    st.markdown("<p style='font-size:0.72rem; color:#64748b; text-transform:uppercase; letter-spacing:0.8px; font-weight:600;'>Mode</p>", unsafe_allow_html=True)
+    st.markdown("<p style='font-size:0.68rem;color:#6366f1;text-transform:uppercase;letter-spacing:1px;font-weight:700;margin-bottom:0.3rem;font-family:Inter,sans-serif;'>🎛 Mode</p>", unsafe_allow_html=True)
     app_mode = st.radio("Mode", ["Chat", "Evaluate"], label_visibility="collapsed")
 
 
