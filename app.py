@@ -299,7 +299,10 @@ with st.sidebar:
     st.markdown("<p style='font-size:0.68rem;color:#6366f1;text-transform:uppercase;letter-spacing:1px;font-weight:700;margin-bottom:0.3rem;font-family:Inter,sans-serif;'>⚡ Inference Settings</p>", unsafe_allow_html=True)
 
     st.text_input("API Key (Managed by Backend)", type="password", value="••••••••••••••••••••", disabled=True, label_visibility="collapsed")
-    api_key = os.getenv("GROQ_API_KEY", "")
+    try:
+        api_key = st.secrets.get("GROQ_API_KEY", "") or os.getenv("GROQ_API_KEY", "")
+    except Exception:
+        api_key = os.getenv("GROQ_API_KEY", "")
 
     model = st.selectbox("Model", [
         "llama-3.3-70b-versatile",
